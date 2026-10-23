@@ -78,7 +78,7 @@ Resultados esperados:
 
 5. Vídeo de apresentação
 
-Link do vídeo no YouTube: 
+Link do vídeo no YouTube: https://youtu.be/lHvw_FOALpo
 
 6. Referências
 
