@@ -1,6 +1,6 @@
 ITP — Segunda Avaliação: Projeto em C
 
-Nome: Ágata Rodrigues
+Nome: Ágata de Oliveira Rodrigues
 Projeto escolhido: Opção 1 — Boletim de uma pequena turma
 
 1. Descrição do projeto
@@ -21,19 +21,23 @@ O boletim apresenta o nome de cada estudante, as três notas, a média individua
 
 3. Como compilar e executar
 
-É necessário ter o compilador GCC instalado.
+É necessário ter o Dev-C++ instalado, com o compilador GCC configurado.
 
-Compilação:
+Abrir o projeto:
+- Abra o Dev-C++.
+- Acesse File (Arquivo) → Open (Abrir).
+- Selecione o arquivo main.c.
 
-gcc -std=c11 -Wall -Wextra main.c -o boletim
+Configurar o compilador
+- Nas opções do compilador, habilite a opção para adicionar comandos ao chamar o compilador e informe:
+- -std=c11
+- Essa configuração permite compilar o código usando o padrão C11.
 
-Execução no Linux ou macOS:
-
-./boletim
-
-Execução no Windows, após a compilação:
-
-.\boletim.exe
+Compilar e executar
+- Com o arquivo main.c aberto, selecione Compile & Run (Compilar e Executar) ou utilize a opção equivalente disponível na sua versão do Dev-C++.
+- Aguarde a compilação e a abertura do console.
+- Informe a quantidade de estudantes, os nomes e as três notas de cada estudante.
+- Confira o boletim exibido ao final da execução.
 
 4. Testes realizados
 
